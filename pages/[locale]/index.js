@@ -33,6 +33,8 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 });
 
 const productLink = 'https://codecanyon.net/item/bookmytix-flutter-flight-booking-app-template/57827751';
+const apkLink = 'https://drive.google.com/drive/folders/18j7SRvsIQMW_i1i5zNuFpAPqrM1QrUbR?usp=sharing';
+const githubLink = 'https://github.com/ilhammeidi/bookmytix-starter';
 
 function MoreAbout() {
   const { classes } = useStyles();
@@ -50,12 +52,12 @@ function MoreAbout() {
     </Box>
     <Grid container spacing={1} className={classes.btnCta}>
       <Grid item xs={6}>
-        <Button size="small" fullWidth variant="outlined" color="black">
+        <Button size="small" href={apkLink} target="_blank" fullWidth variant="outlined" color="black">
           <AndroidIcon sx={{ mr: 0.5 }} /> APK Installer
         </Button>
       </Grid>
       <Grid item xs={6}>
-        <Button size="small" fullWidth variant="outlined" color="black">
+        <Button size="small" href={githubLink} target="_blank" fullWidth variant="outlined" color="black">
           <GitHubIcon sx={{ mr: 0.5 }} /> Try Free Version
         </Button>
       </Grid>

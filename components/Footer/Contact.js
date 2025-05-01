@@ -12,7 +12,7 @@ import Divider from '@mui/material/Divider';
 import Snackbar from '@mui/material/Snackbar';
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 import { useTranslation } from 'next-i18next';
-import logo from '~/public/images/logo-agency.svg';
+import logo from '~/public/images/logo.png';
 import brand from '~/public/text/brand';
 import { useText, useTextAlign } from '~/theme/common';
 import Decoration from './Decoration';

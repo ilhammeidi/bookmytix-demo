@@ -11,7 +11,7 @@ const HeadComponent = () => (
       content={brand.agency.desc}
     />
     {/* Favicon */}
-    <link rel="icon" href="/favicons/favicon.ico" />
+    <link rel="icon" href="/favicon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png" />
@@ -29,7 +29,7 @@ const HeadComponent = () => (
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png" />
     {/* PWA primary color */}
-    <meta name="theme-color" content={theme.oceanBlue.palette.primary.main} />
+    <meta name="theme-color" content={theme.bookmytix.palette.primary.main} />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"

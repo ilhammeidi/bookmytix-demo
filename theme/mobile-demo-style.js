@@ -18,7 +18,7 @@ const useStyles = makeStyles({ uniqId: 'mobile' })((theme, _params, classes) => 
     height: '100vh',
     overflow: 'auto',
     [theme.breakpoints.down('lg')]: {
-      height: 'calc(100vh - 50px)',
+      height: 'calc(100vh - 120px)',
       overflow: 'hidden'
     },
   },

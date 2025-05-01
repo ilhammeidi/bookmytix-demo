@@ -13,7 +13,7 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import IconButton from '@mui/material/IconButton';
 import { useTranslation } from 'next-i18next';
-import logo from '~/public/images/logo-agency.svg';
+import logo from '~/public/images/logo.png';
 import brand from '~/public/text/brand';
 import SelectLang from '../LangSwitch/Select';
 import { useTextAlign } from '~/theme/common';
